@@ -1,0 +1,47 @@
+@import '../blocks/page/page.css';
+@import '../blocks/container/container.css';
+
+@import '../blocks/header/header.css';
+@import '../blocks/header/__container/header__container.css';
+@import '../blocks/header/__logo/header__logo.css';
+
+@import '../blocks/menu/_place/menu_place_header.css';
+@import '../blocks/menu/_place/menu_place_footer.css';
+@import '../blocks/menu/__list/menu__list.css';
+@import '../blocks/menu/__item/_place/menu__item_place_header.css';
+@import '../blocks/menu/__link/menu__link.css';
+@import '../blocks/menu/__link/_place/menu__link_place_header.css';
+@import '../blocks/menu/__link/_place/menu__link_place_footer.css';
+
+@import '../blocks/search/search.css';
+@import '../blocks/search/__input/search__input.css';
+@import '../blocks/search/__button/search__button.css';
+
+@import '../blocks/hero/hero.css';
+@import '../blocks/hero/__container/hero__container.css';
+@import '../blocks/hero/__title/hero__title.css';
+@import '../blocks/hero/__subtitle/hero__subtitle.css';
+
+@import '../blocks/portfolio/portfolio.css';
+@import '../blocks/portfolio/__title/portfolio__title.css';
+@import '../blocks/portfolio/__list/portfolio__list.css';
+@import '../blocks/portfolio/__item/portfolio__item.css';
+@import '../blocks/portfolio/__project/portfolio__project.css';
+@import '../blocks/portfolio/__link/portfolio__link.css';
+
+@import '../blocks/footer/footer.css';
+@import '../blocks/footer/__navigation/footer__navigation.css';
+@import '../blocks/footer/__logo/footer__logo.css';
+
+@import '../blocks/contacts/__title/contacts__title.css';
+@import '../blocks/contacts/__item/contacts__item.css';
+@import '../blocks/contacts/__link/contacts__link.css';
+
+@import '../blocks/social/__list/social__list.css';
+@import '../blocks/social/__item/social__item.css';
+@import '../blocks/social/__link/social__link.css';
+@import '../blocks/social/__link/_color/social__link_color_fb.css';
+@import '../blocks/social/__link/_color/social__link_color_tg.css';
+@import '../blocks/social/__link/_color/social__link_color_instagram.css';
+@import '../blocks/social/__link/_color/social__link_color_vk.css';
+@import '../blocks/social/__icon/social__icon.css';

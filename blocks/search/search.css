@@ -1,0 +1,7 @@
+.search {
+  display: inline-block;
+  vertical-align: text-bottom;
+  border: 3px solid rgb(153, 101, 227);
+  border-radius: 15px;
+  overflow: hidden;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="container header__container">
+        <img src="./image/header/logo.png" alt="Logo" class="logo header__logo" />
+        <div class="menu menu_place_header">
+          <ul class="menu__list menu__list_place_header">
+            <li class="menu__item menu__item_place_header">
+              <a href="#" class="menu__link menu__link_place_header">Home</a>
+            </li>
+            <li class="menu__item menu__item_place_header">
+              <a href="#" class="menu__link menu__link_place_header">About us</a>
+            </li>
+            <li class="menu__item menu__item_place_header">
+              <a href="#" class="menu__link menu__link_place_header">Other</a>
+            </li>
+            <li class="menu__item menu__item_place_header">
+              <a href="#" class="menu__link menu__link_place_header">Blog</a>
+            </li>
+            <li class="menu__item menu__item_place_header">
+              <a href="#" class="menu__link menu__link_place_header">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="search">
+          <input type="text" class="search__input" name="search" placeholder="search" />
+          <button class="search__button" type="submit"></button>
+        </form>
+      </div>
+      <!-- /.container -->
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__container" style="background-image: url(./image/hero/hero.jpg)">
+            <h1 class="hero__title">Kate leo</h1>
+            <p class="hero__subtitle">Freelance Web Developer in new YORK</p>
+          </div>
+          <!-- /.hero__container -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <section class="portfolio">
+        <div class="container portfolio__container">
+          <h2 class="portfolio__title">portfolio</h2>
+          <ul class="portfolio__list">
+            <li class="portfolio__item">
+              <h3 class="portfolio__project" style="background-image: url(./image/portfolio/project-lookr.jpg)">
+                <a href="#" class="portfolio__link">lookr</a>
+              </h3>
+            </li>
+            <li class="portfolio__item">
+              <h3 class="portfolio__project" style="background-image: url(./image/portfolio/project-profigoals.jpg)">
+                <a href="#" class="portfolio__link">profigoals</a>
+              </h3>
+            </li>
+            <li class="portfolio__item">
+              <h3 class="portfolio__project" style="background-image: url(./image/portfolio/project-natural-hacks.jpg)">
+                <a href="#" class="portfolio__link">natural hacks</a>
+              </h3>
+            </li>
+            <li class="portfolio__item">
+              <h3 class="portfolio__project" style="background-image: url(./image/portfolio/project-growthx.jpg)">
+                <a href="#" class="portfolio__link">growthx</a>
+              </h3>
+            </li>
+            <li class="portfolio__item">
+              <h3 class="portfolio__project" style="background-image: url(./image/portfolio/project-newage.jpg)">
+                <a href="#" class="portfolio__link">nevage</a>
+              </h3>
+            </li>
+            <li class="portfolio__item">
+              <h2
+                class="portfolio__project"
+                style="background-image: url(./image/portfolio/project-human-anatomy-app.jpg)"
+              >
+                <a href="#" class="portfolio__link">human anatomy app</a>
+              </h2>
+            </li>
+          </ul>
+        </div>
+        <!-- /.container -->
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__navigation">
+          <img src="./image/footer/logo.png" alt="Logo" class="logo footer__logo" />
+          <div class="menu menu_place_footer">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link menu__link_place_footer">Home</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link menu__link_place_footer">About us</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link menu__link_place_footer">Other</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link menu__link_place_footer">Blog</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link menu__link_place_footer">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.menu -->
+        </div>
+        <!-- /.footer__navigation -->
+        <div class="contacts footer__navigation">
+          <h2 class="contacts__title">Contacts</h2>
+          <address>
+            <p class="contacts__item">Greater London House, Buggeter Road, London, England, NW3 1FG</p>
+            <p class="contacts__item">
+              Email Address: <a href="mailto:Legal@myaddress.com" class="contacts__link">Legal@myaddress.com</a>
+            </p>
+            <p class="contacts__item">Company Register: Companies House (England)</p>
+            <p class="contacts__item">Company Registration Number: 03123421</p>
+            <p class="contacts__item">Authorised Representative: Nick Avazov CEO</p>
+          </address>
+        </div>
+        <!-- /.contacts -->
+        <nav class="social footer__navigation">
+          <ul class="social__list">
+            <li class="social__item">
+              <a href="#" target="_blank" class="social__link social__link_color_fb">
+                <svg class="social__icon">
+                  <use xlink:href="./image/icons/icons.svg#fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#" target="_blank" class="social__link social__link_color_tg">
+                <svg class="social__icon">
+                  <use xlink:href="./image/icons/icons.svg#tg"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#" target="_blank" class="social__link social__link_color_instagram">
+                <svg class="social__icon">
+                  <use xlink:href="./image/icons/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#" target="_blank" class="social__link social__link_color_vk">
+                <svg class="social__icon">
+                  <use xlink:href="./image/icons/icons.svg#vk"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- /.container -->
+    </footer>
+  </body>
+</html>

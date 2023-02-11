@@ -1,0 +1,8 @@
+.menu__item_place_header {
+  display: inline-block;
+  margin-right: 38px;
+}
+
+.menu__item_place_header:last-child {
+  margin-right: 0;
+}

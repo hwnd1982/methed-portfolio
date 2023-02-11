@@ -1,0 +1,32 @@
+.portfolio__link {
+  display: block;
+  text-decoration: none;
+  background-image: inherit;
+  background-size: 0;
+  color: inherit;
+  transition: transform 0.5s ease-in-out, text-shadow 0.5s ease-in-out;
+}
+
+.portfolio__link:hover {
+  transform: scale(1.1) translateY(-20px);
+  text-shadow: 0px -10px 5px #000000;
+}
+
+.portfolio__link:hover::before {
+  -webkit-box-shadow: 0px 20px 30px 10px rgb(255 255 255 / 0.25);
+  -moz-box-shadow: 0px 20px 30px 10px rgb(255 255 255 / 0.25);
+  box-shadow: 0px 20px 30px 10px rgb(255 255 255 / 0.25);
+}
+
+.portfolio__link::before {
+  content: '';
+  display: block;
+  min-height: 285px;
+  background-image: inherit;
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  border-radius: 30px;
+  transition: box-shadow 0.5s ease-in-out;
+}

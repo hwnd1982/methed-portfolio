@@ -1,0 +1,11 @@
+.contacts__item {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.556;
+  font-style: normal;
+}
+
+.contacts__item:first-child {
+  max-width: 350px;
+  white-space: pre-line;
+}

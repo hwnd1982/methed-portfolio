@@ -1,0 +1,18 @@
+.social__link {
+  display: block;
+  text-decoration: none;
+  color: #73c22e;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  transition-property: color, background-color, border-color, box-shadow;
+  transition-duration: 0.5s, 0.5s, 0.5s, 0.5s;
+  transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+
+.social__link:hover {
+  background-color: #fff;
+  border-color: #fff;
+  -webkit-box-shadow: 0 0 5px 5px currentColor;
+  -moz-box-shadow: 0 0 5px 5px currentColor;
+  box-shadow: 0 0 5px 5px currentColor;
+}

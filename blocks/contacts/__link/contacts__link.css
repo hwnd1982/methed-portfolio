@@ -1,0 +1,9 @@
+.contacts__link {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.5s ease-in-out;
+}
+
+.contacts__link:hover {
+  color: rgb(115, 194, 46);
+}

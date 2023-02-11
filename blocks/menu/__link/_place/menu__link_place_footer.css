@@ -1,0 +1,8 @@
+.menu__link_place_footer {
+  font-size: 16px;
+  line-height: 2;
+}
+
+.menu__link_place_footer:hover {
+  color: rgb(115, 194, 46);
+}
